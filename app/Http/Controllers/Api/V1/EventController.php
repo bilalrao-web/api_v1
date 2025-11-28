@@ -12,7 +12,9 @@ class EventController extends ApiController
      */
     public function index()
     {
-
+        return response()->json([
+                    'data' => ['Events'],
+                ]);
     }
 
     /**

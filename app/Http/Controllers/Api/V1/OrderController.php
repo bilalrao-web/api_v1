@@ -12,7 +12,9 @@ class OrderController extends ApiController
      */
     public function index()
     {
-
+         return response()->json([
+            'data' => ['Orders'],
+        ]);
     }
 
     /**
